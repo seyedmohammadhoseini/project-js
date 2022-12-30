@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>js project</title>
+  </head>
+  <body>
+    <div class="form">
+      <!-- onblur -->
+      <input
+        onblur="usenameval()"
+        class="username"
+        type="text"
+        placeholder="username"
+      />
+      <span class="username-valedition">must contain 12char(min)</span>
+         <!-- event onkeydown -->
+      <input
+        onkeydown="passwordval()"
+        class="password"
+        type="password"
+        placeholder="password"
+        name=""
+        value=""
+      />
+      <span class="password-valedition">must contain 8 char(min)</span>
+
+      <button class="btn-form" onclick="dataValidation()">login</button>
+      <div class="craete-form">
+        <p>not registered</p>
+        <a href="">create new accunt</a>
+      </div>
+    </div>
+    <div class="modal">
+      <p>رمز یا نام کاربری درست نیست</p>
+    </div>
+
+    <script src="./js/form.js"></script>
+  </body>
+</html>
