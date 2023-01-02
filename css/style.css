@@ -1,3 +1,102 @@
-.bulb{
-    display: flex;
+
+#bublbBtn{
+    color: white;
+    background: rgb(43, 160, 19);
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius:20px ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
+/* form login */
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 30px;
+    background: rgb(46, 96, 134);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin:100px  auto;
+}
+.username , .password{
+    width: 200px;
+    border: 2px solid rgb(8, 42, 69) ;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 5px auto;
+    background-color: transparent;
+}
+.username::placeholder , .password::placeholder{
+    color: bisque;
+}
+.btn-form{
+    border: none;
+    outline: none;
+    width: 100px;
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(131, 255, 127);
+    border-radius: 10px;
+    color: green;
+}
+.craete-form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.modal{
+display: none;
+position: absolute;
+top: 0;
+right: 0;
+border-radius: 20px;
+font-family: Shabnam FD;
+background-color: brown;
+color: beige;
+padding: 20px;
+}
+
+.username-valedition , .password-valedition{
+    color: rgb(232, 112, 112);
+    margin-top: -30px;
+    font-size: 14px;
+    text-align: center;
+    display: none;
+
+}
+/*end of  form login */
+/* Online sale of tickets */
+.mohammad{
+    color: red;
+    border: none;
+    outline: none;
+}
+.tickets{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+}
+.countirySelect{
+    padding: 10px;
+    font-size: 18px;
+    margin: 50px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(139, 125, 125);
+}.citySelect{
+    padding: 10px;
+    font-size: 18px;
+    margin: 50px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(139, 125, 125);
+}
+/*  end of Online sale of tickets */
+
+  
+ 
